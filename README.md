@@ -4,6 +4,7 @@
 
 This project is a Counter App built using *React, RxJS, and Material UI. It follows the *MVI (Model-View-Intent) architecture to ensure clean separation of concerns and reactive state management.
 
+**Link**: [https://counter-rho-one.vercel.app/](https://counter-rho-one.vercel.app/)
 ## Features
 - Increment & Decrement Buttons - Adjusts counter between 0 and 98
 - Reset Button - Resets counter to 0

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.app-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2d3748;
+}
+
+.counter-box {
+    background-color: #1a202c;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.counter-heading {
+    font-size: 2rem;
+    color: #f6e05e;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.counter-value {
+    font-size: 3rem;
+    color: #edf2f7;
+    margin-bottom: 30px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #2d3748;
+    border-radius: 5px;
+}
+
+.counter-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.counter-btn {
+    font-size: 1.25rem;
+    padding: 15px 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.increment-btn {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+.increment-btn:hover {
+    background-color: #357ab7;
+}
+
+.decrement-btn {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+.decrement-btn:hover {
+    background-color: #357ab7;
+}
+
+.reset-btn {
+    background-color: #e53e3e;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.reset-btn:hover {
+    background-color: #c53030;
+}
+
+.auto-toggle-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.toggle-container {
+    width: 50px;
+    height: 25px;
+    background-color: #a0aec0;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-container.toggle-active {
+    background-color: #68d391;
+}
+
+.toggle-indicator {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    transition: transform 0.3s ease;
+}
+
+.toggle-indicator.toggle-active {
+    transform: translateX(25px);
+}
+
+.toggle-description {
+    margin-left: 10px;
+    color: #edf2f7;
+    font-size: 1rem;
+    font-weight: 600;
+}

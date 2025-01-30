@@ -36,3 +36,5 @@ This project is a Counter App built using *React, RxJS, and Material UI. It foll
 - Click the Reset button to reset the counter to 0.
 - Toggle Auto Increment to start automatic incrementing every 1.1 seconds.
 
+## Screenshot
+![Screenshot 2025-01-30 180222](https://github.com/user-attachments/assets/fbc8bc40-2d1b-4991-9c49-2cc1b1220008)
